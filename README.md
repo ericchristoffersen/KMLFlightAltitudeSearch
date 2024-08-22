@@ -33,3 +33,9 @@ If you wish to search a single kml file then:
 If you wish to search all kml in a directory for planes that fly even closer and lower you can decrease the distance and altitude limits:
 
 	python AltitudeFinder.py searchlocations.txt sample\sample.kml searchoutput2.csv 1000 500
+
+Output is a csv file that lists search locations in upper left of spreadsheet and below that all plane/time/location within search criteria.
+
+LIMITATIONS:
+
+The plane flight tracks are sets of points with an inferred LINE between them. Reported time, altitude and location are linearly interpolated from the points. A better implementation would use a cubic spline... In any case this is a tool to find potential violations, ultimately the FAA is the arbiter, send the data to them to decide.
