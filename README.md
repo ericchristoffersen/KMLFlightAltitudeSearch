@@ -13,7 +13,9 @@ Location format is:
 For example create a file "locs.txt" that contains:
 
 "beaux arts sailboat dock", 47.58407, -122.20493, 29
+
 "beaux arts water tower, 10528 se 27th street, beaux arts", 47.586611, -122.199839, 300
+
 "barnabie point community center, Mercer Island", 47.57695, -122.20374, 175
 
 For example, there are sample files you can use, run the script as:
