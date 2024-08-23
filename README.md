@@ -4,6 +4,10 @@ We have been having a lot of seaplanes flying very low over our town, and the FA
 
 To use, download flight track kml files from flightaware to a directory on your computer, then run script to find all locations on flight tracks that come within specificed distance limits.
 
+## Dependency install (on windows)
+
+<code>py -m pip install -r requirements.txt</code>
+
 ## Examples
 
 Here are some examples using the files included with the source.
