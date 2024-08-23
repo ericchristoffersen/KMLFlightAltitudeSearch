@@ -1,5 +1,4 @@
 
-from re import A
 from fastkml import kml
 from fastkml import geometry
 from fastkml import gx
@@ -172,8 +171,6 @@ def readAndReport(filenames, outFileName, minAlt, minDist, locList):
 import os
 from os import listdir
 from os.path import isfile, join
-
-from scraper import bar
 
 import csv
 from io import StringIO
